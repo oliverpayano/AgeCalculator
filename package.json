@@ -1,0 +1,28 @@
+{
+  "name": "agecalculator",
+  "version": "1.0.0",
+  "description": "making a age calculator\r https://roadmap.sh/projects/age-calculator",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverpayano/AgeCalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oliverpayano/AgeCalculator/issues"
+  },
+  "homepage": "https://github.com/oliverpayano/AgeCalculator#readme",
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}

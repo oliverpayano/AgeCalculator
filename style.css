@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.age-caluclator {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#birthdate {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#calculate-button {
+    padding: 12px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+}
